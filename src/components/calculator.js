@@ -31,9 +31,10 @@ const calculatorSymbols = [
 const Grid = () => (
   <div className="border" id="grid">
     <Display />
-    {calculatorSymbols.map((symbol, index) => (
-      <Buttons symbol={symbol} key={symbol} id={index} />
-    ))}
+    {calculatorSymbols.map((symbol, index) => {
+      const id = `id${index}`;
+      return <Buttons symbol={symbol} key={symbol} id={id} />;
+    })}
   </div>
 );
 
