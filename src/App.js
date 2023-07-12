@@ -1,9 +1,10 @@
+import Calculator from './components/calculator';
 import './App.css';
 
-function App() {
-  return (
-    <section />
-  );
-}
+const App = () => (
+  <section>
+    <Calculator />
+  </section>
+);
 
 export default App;
