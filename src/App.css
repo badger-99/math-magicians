@@ -1,8 +1,8 @@
-.border{
-  border:1px solid black;
+.border {
+  border: 1px solid black;
 }
 
-#grid{
+#grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -11,25 +11,25 @@
   margin: 5rem 0 0 5rem;
 }
 
-#display{
+#display {
   grid-column: 1 / span 4;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   background: #858694;
   color: #fff;
 }
 
-#display >  h2{
+#display > h2 {
   margin: auto 0.25rem;
 }
 
-button{
+button {
   font-weight: 600;
-  background: #E0E0E0;
+  background: #e0e0e0;
 }
 
-#id16{
+#id16 {
   grid-column: 1 / span 2;
 }
 
@@ -37,6 +37,6 @@ button{
 #id7,
 #id11,
 #id15,
-#id18{
-  background: #F5913E;
+#id18 {
+  background: #f5913e;
 }
