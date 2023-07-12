@@ -44,6 +44,9 @@ const Display = () => (
   </div>
 );
 
-const Buttons = ({ symbol, id }) => <button id={'id'+ id } type="button">{symbol}</button>;
-Buttons.propTypes = { symbol: PropTypes.string.isRequired };
+const Buttons = ({ symbol, id }) => <button id={id} type="button">{symbol}</button>;
+Buttons.propTypes = {
+  symbol: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+};
 export default Calculator;
