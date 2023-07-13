@@ -12,7 +12,7 @@ const Grid = () => (
     <Display />
     {calculatorSymbols.map((symbol, index) => {
       const id = `id${index}`;
-      return <Buttons symbol={symbol} key={symbol} id={id} />;
+      return <Buttons symbol={symbol} key={symbol} name={symbol} id={id} />;
     })}
   </div>
 );
@@ -23,14 +23,15 @@ const Display = () => (
   </div>
 );
 
-const Buttons = ({ symbol, id }) => (
-  <button id={id} type="button">
+const Buttons = ({ symbol, name, id }) => (
+  <button id={id} name={name} type="button">
     {symbol}
   </button>
 );
 
 Buttons.propTypes = {
   symbol: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   id: PropTypes.number.isRequired,
 };
 
