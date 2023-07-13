@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import calculate from '../logic/calculate';
 import calculatorSymbols from './symbols';
 
 const Calculator = () => (
@@ -14,6 +15,11 @@ const Grid = () => {
     next: null,
     operation: null,
   });
+
+  const handleClick = (buttonName) => {
+    const newData = calculate(data, buttonName);
+    setData(newData);
+  };
 
   return (
     <div className="border" id="grid">
