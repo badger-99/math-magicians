@@ -25,16 +25,16 @@ const Grid = () => {
     </div>
   );
 };
+
+const Display = ({ result }) => (
+
   <div className="border" id="display">
-    <h2>0</h2>
+    <h2>{result}</h2>
   </div>
 );
 
-const Buttons = ({ symbol, name, id }) => (
-  <button id={id} name={name} type="button">
-    {symbol}
-  </button>
-);
+
+Display.propTypes = { result: PropTypes.number.isRequired };
 
 Buttons.propTypes = {
   symbol: PropTypes.string.isRequired,
