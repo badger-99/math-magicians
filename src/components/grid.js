@@ -1,6 +1,5 @@
-import Buttons from './buttons';
+import PropTypes from 'prop-types';
 import calculatorSymbols from './symbols';
-import Display from './display';
 
 const Grid = () => (
   <div className="border" id="grid">
@@ -11,5 +10,22 @@ const Grid = () => (
     })}
   </div>
 );
+
+const Display = () => (
+  <div className="border" id="display">
+    <h2>0</h2>
+  </div>
+);
+
+const Buttons = ({ symbol, id }) => (
+  <button id={id} type="button">
+    {symbol}
+  </button>
+);
+
+Buttons.propTypes = {
+  symbol: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+};
 
 export default Grid;
