@@ -17,7 +17,7 @@ const calculatorSymbols = [
   '+',
   '0',
   '.',
-  '-',
+  '=',
 ];
 
 export default calculatorSymbols;
