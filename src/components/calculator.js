@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import calculatorSymbols from './symbols';
 
@@ -7,17 +8,23 @@ const Calculator = () => (
   </div>
 );
 
-const Grid = () => (
-  <div className="border" id="grid">
-    <Display />
-    {calculatorSymbols.map((symbol, index) => {
-      const id = `id${index}`;
-      return <Buttons symbol={symbol} key={symbol} name={symbol} id={id} />;
-    })}
-  </div>
-);
+const Grid = () => {
+  const [data, setData] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
 
-const Display = () => (
+  return (
+    <div className="border" id="grid">
+      <Display result={data.next || data.total || '0'} />
+      {calculatorSymbols.map((symbol, index) => {
+        const id = `id${index}`;
+        return <Buttons symbol={symbol} name={symbol} id={id} event={handleClick} key={symbol} />;
+      })}
+    </div>
+  );
+};
   <div className="border" id="display">
     <h2>0</h2>
   </div>
