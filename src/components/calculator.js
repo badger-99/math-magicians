@@ -39,12 +39,23 @@ const Display = ({ result }) => (
   </div>
 );
 
+const Buttons = (props) => {
+  const {
+    symbol, name, event, id,
+  } = props;
+  return (
+    <button id={id} name={name} type="button" onClick={() => { event(name); }}>
+      {symbol}
+    </button>
+  );
+};
 
 Display.propTypes = { result: PropTypes.number.isRequired };
 
 Buttons.propTypes = {
   symbol: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  event: PropTypes.func.isRequired,
   id: PropTypes.number.isRequired,
 };
 
