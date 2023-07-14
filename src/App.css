@@ -41,19 +41,19 @@ button {
   background: #f5913e;
 }
 
-.text-box{
+.text-box {
   margin: 2.5rem 0 0 2.5rem;
   padding: 0.5rem;
   width: 600px;
   /* text-justify: center; */
 }
 
-#loading{
+#loading {
   color: blue;
   text-align: center;
 }
 
-#error{
+#error {
   color: red;
   text-align: center;
 }
