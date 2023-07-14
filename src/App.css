@@ -8,7 +8,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 400px;
   height: 300px;
-  margin: 5rem 0 0 5rem;
+  margin: 5rem 0 0 7.5rem;
 }
 
 #display {
@@ -39,4 +39,20 @@ button {
 #id15,
 #id18 {
   background: #f5913e;
+}
+
+.text-box {
+  margin: 2.5rem 0 0 2.5rem;
+  padding: 0.5rem;
+  width: 600px;
+}
+
+#loading {
+  color: blue;
+  text-align: center;
+}
+
+#error {
+  color: red;
+  text-align: center;
 }
