@@ -35,7 +35,7 @@ const Quotes = () => {
 
   if (hasError) {
     return (
-      <div className="text-box" id="error">
+      <div className="text-box border" id="error">
         Something went wrong!
       </div>
     );
@@ -43,13 +43,13 @@ const Quotes = () => {
 
   if (isLoading) {
     return (
-      <div className="text-box" id="loading">
+      <div className="text-box border" id="loading">
         Loading...
       </div>
     );
   }
 
   // Main return
-  return <div className="text-box" id="quote">{ quote }</div>;
+  return <div className="text-box border" id="quote">{ quote }</div>;
 };
 export default Quotes;
