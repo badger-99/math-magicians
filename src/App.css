@@ -22,7 +22,7 @@
 
 button {
   font-weight: 600;
-  background: #ffffff;
+  background: #fff;
   border: none;
 }
 
@@ -75,10 +75,11 @@ nav {
   border-bottom: 3px solid #ff7300;
   margin-bottom: 3rem;
 }
+
 ul li:nth-child(-n + 2) {
   padding-right: 0.5rem;
   border-right: 2px solid black;
-  border-color: #43444a;;
+  border-color: #43444a;
   margin-right: 0.5rem;
 }
 
