@@ -1,6 +1,6 @@
 const Home = () => (
   <div>
-    <h2>Welcome to our page!</h2>
+    <h3>Welcome to our page!</h3>
     <br />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eaque,
