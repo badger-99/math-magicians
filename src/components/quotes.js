@@ -8,8 +8,8 @@ const Quotes = () => {
 
   // Api call data
   const apiKey = 'xHr8HwBU7H/MU6z8/2+9GA==VwppmyXM5Ucuxbb7';
-  const category = 'computers';
-  const url = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
+  // const category = 'computers';
+  const url = 'https://api.api-ninjas.com/v1/quotes?category=computers';
 
   // useEffect
   useEffect(() => {
