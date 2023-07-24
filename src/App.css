@@ -76,15 +76,15 @@ nav {
   margin-bottom: 3rem;
 }
 
+li {
+  list-style: none;
+}
+
 ul li:nth-child(-n + 2) {
   padding-right: 0.5rem;
   border-right: 2px solid black;
   border-color: #43444a;
   margin-right: 0.5rem;
-}
-
-li {
-  list-style: none;
 }
 
 .content {
