@@ -4,6 +4,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 400px;
   height: 300px;
+  gap: 0.2rem;
 }
 
 #display {
@@ -22,6 +23,7 @@
 button {
   font-weight: 600;
   background: #e0e0e0;
+  border: none;
 }
 
 #id16 {
@@ -37,29 +39,27 @@ button {
 }
 
 .text-box {
-  margin: 2.5rem 0 0 2.5rem;
+  margin: 17.5rem auto 0;
   padding: 0.5rem;
   width: 600px;
-  border: 1px solid black;
-  margin: 15% auto 0;
 }
 
 #loading {
-  color: blue;
+  color: rgb(26, 26, 255);
   text-align: center;
 }
 
 #error {
-  color: red;
+  color: rgb(255, 31, 31);
   text-align: center;
 }
 
 .link {
-  color: black;
+  color: inherit;
 }
 
 .active {
-  color: #f5913e;
+  color: #ff7300;
 }
 
 nav,
@@ -72,7 +72,7 @@ ul {
 }
 
 nav {
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid #ff7300;
   margin-bottom: 3rem;
 }
 ul li:nth-child(-n + 2) {
