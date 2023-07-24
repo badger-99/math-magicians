@@ -7,16 +7,16 @@ import Home from './components/home';
 const App = () => (
   <>
     <nav>
-      <h3>Math Magicians</h3>
+      <h1>Math Magicians</h1>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink className="link" to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/calculator">Calculator</NavLink>
+          <NavLink className="link" to="/calculator">Calculator</NavLink>
         </li>
         <li>
-          <NavLink to="/quote">Quote</NavLink>
+          <NavLink className="link" to="/quote">Quote</NavLink>
         </li>
       </ul>
     </nav>
