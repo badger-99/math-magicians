@@ -1,5 +1,5 @@
 const Home = () => (
-  <div>
+  <div className="content">
     <h3>Welcome to our page!</h3>
     <br />
     <p>

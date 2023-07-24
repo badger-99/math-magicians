@@ -34,7 +34,7 @@ const Quotes = () => {
 
   if (hasError) {
     return (
-      <div className="text-box border" id="error">
+      <div className="text-box" id="error">
         Something went wrong!
       </div>
     );
