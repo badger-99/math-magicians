@@ -56,3 +56,28 @@ button {
   color: red;
   text-align: center;
 }
+
+.link {
+  color: black;
+}
+
+.active{
+  color: #f5913e;
+}
+
+nav, ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+ul li:nth-child(-n+2){
+  padding-right: 0.5rem;
+  border-right: 1px solid black;
+  margin-right: 0.5rem;
+}
+
+li{
+  list-style: none;
+}
