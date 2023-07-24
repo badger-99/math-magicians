@@ -5,18 +5,7 @@
 }
 
 body {
-  font-family:
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: rgb(0, 0, 0) ;
-  color: antiquewhite;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: rgb(0, 0, 0);
+  color: #dddee0;
 }

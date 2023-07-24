@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  background: #858694;
+  background: #43444a;
   color: #fff;
 }
 
@@ -22,7 +22,7 @@
 
 button {
   font-weight: 600;
-  background: #e0e0e0;
+  background: #ffffff;
   border: none;
 }
 
@@ -35,7 +35,7 @@ button {
 #id11,
 #id15,
 #id18 {
-  background: #f5913e;
+  background: #f58020;
 }
 
 .text-box {
@@ -77,7 +77,8 @@ nav {
 }
 ul li:nth-child(-n + 2) {
   padding-right: 0.5rem;
-  border-right: 1px solid black;
+  border-right: 2px solid black;
+  border-color: #43444a;;
   margin-right: 0.5rem;
 }
 
