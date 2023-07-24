@@ -1,14 +1,9 @@
-.border {
-  border: 1px solid black;
-}
-
 #grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 400px;
   height: 300px;
-  margin: 5rem 0 0 7.5rem;
 }
 
 #display {
@@ -45,6 +40,8 @@ button {
   margin: 2.5rem 0 0 2.5rem;
   padding: 0.5rem;
   width: 600px;
+  border: 1px solid black;
+  margin: 15% auto 0;
 }
 
 #loading {
@@ -61,23 +58,42 @@ button {
   color: black;
 }
 
-.active{
+.active {
   color: #f5913e;
 }
 
-nav, ul{
+nav,
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
-ul li:nth-child(-n+2){
+
+nav {
+  border-bottom: 1px solid black;
+  margin-bottom: 3rem;
+}
+ul li:nth-child(-n + 2) {
   padding-right: 0.5rem;
   border-right: 1px solid black;
   margin-right: 0.5rem;
 }
 
-li{
+li {
   list-style: none;
+}
+
+.content {
+  padding: 0 2rem;
+  max-width: 80rem;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 auto;
 }
