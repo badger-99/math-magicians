@@ -1,14 +1,10 @@
-.border {
-  border: 1px solid black;
-}
-
 #grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 400px;
   height: 300px;
-  margin: 5rem 0 0 7.5rem;
+  gap: 0.2rem;
 }
 
 #display {
@@ -16,7 +12,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  background: #858694;
+  background: #43444a;
   color: #fff;
 }
 
@@ -26,7 +22,8 @@
 
 button {
   font-weight: 600;
-  background: #e0e0e0;
+  background: #fff;
+  border: none;
 }
 
 #id16 {
@@ -38,21 +35,67 @@ button {
 #id11,
 #id15,
 #id18 {
-  background: #f5913e;
+  background: #f58020;
 }
 
 .text-box {
-  margin: 2.5rem 0 0 2.5rem;
+  margin: 17.5rem auto 0;
   padding: 0.5rem;
   width: 600px;
 }
 
 #loading {
-  color: blue;
+  color: rgb(26, 26, 255);
   text-align: center;
 }
 
 #error {
-  color: red;
+  color: rgb(255, 31, 31);
   text-align: center;
+}
+
+.link {
+  color: inherit;
+}
+
+.active {
+  color: #ff7300;
+}
+
+nav,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav {
+  border-bottom: 3px solid #ff7300;
+  margin-bottom: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+ul li:nth-child(-n + 2) {
+  padding-right: 0.5rem;
+  border-right: 2px solid black;
+  border-color: #43444a;
+  margin-right: 0.5rem;
+}
+
+.content {
+  padding: 0 2rem;
+  max-width: 80rem;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 auto;
 }

@@ -109,9 +109,7 @@ You can deploy this project through the dev server. To initiate it, run `npm bui
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[A home page]**
-- [ ] **[A Calculator page]**
-- [ ] **[A Quotes page]**
+- [ ] **[There's currently no plan to add further features.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

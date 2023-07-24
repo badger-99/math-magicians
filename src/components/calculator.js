@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 import calculatorSymbols from './symbols';
 
+const text = 'Let\'s do some math!';
 const Calculator = () => (
-  <div>
+  <div className="content calculator">
+    <h3>{ text }</h3>
     <Grid />
   </div>
 );
