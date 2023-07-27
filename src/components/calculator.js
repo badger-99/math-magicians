@@ -52,13 +52,13 @@ const Buttons = (props) => {
   );
 };
 
-Display.propTypes = { result: PropTypes.number.isRequired };
+Display.propTypes = { result: PropTypes.string.isRequired };
 
 Buttons.propTypes = {
   symbol: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   event: PropTypes.func.isRequired,
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default Calculator;
