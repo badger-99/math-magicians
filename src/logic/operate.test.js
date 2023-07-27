@@ -48,7 +48,7 @@ describe('Testing the math operations', () => {
     const num2 = '0';
     const operand = '%';
     expect(operate(num1, num2, operand)).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 });
