@@ -3,6 +3,7 @@ import Calculator from './components/calculator';
 import Quotes from './components/quotes';
 import './App.css';
 import Home from './components/home';
+import Footer from './components/footer';
 
 const App = () => (
   <>
@@ -25,6 +26,7 @@ const App = () => (
       <Route path="/calculator" element={<Calculator />} />
       <Route path="/quote" element={<Quotes />} />
     </Routes>
+    <Footer />
   </>
 );
 
