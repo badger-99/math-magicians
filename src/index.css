@@ -9,3 +9,8 @@ body {
   background: rgb(0, 0, 0);
   color: #dddee0;
 }
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}

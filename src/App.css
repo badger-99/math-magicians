@@ -99,3 +99,18 @@ ul li:nth-child(-n + 2) {
   align-items: start;
   margin: 0 auto;
 }
+
+#footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4rem;
+  padding: 2rem 0 1rem 0;
+}
+
+#footer a {
+  color: #ff7300;
+  text-decoration: none;
+}
