@@ -112,4 +112,5 @@ ul li:nth-child(-n + 2) {
 
 #footer a {
   color: #ff7300;
+  text-decoration: none;
 }
